@@ -44,6 +44,6 @@ while answer != "1" and answer != "2":
     print("Please enter either 1 or 2")
     answer = input()
 if answer == "1":
-    df.to_excel("scraped_data.xlsx", index=False)
+    df.to_excel("output/scraped_data.xlsx", index=False)
 elif answer == "2":
-    df.to_csv("scraped_data.csv", index=False)
+    df.to_csv("output/scraped_data.csv", index=False)
